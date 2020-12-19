@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>用户注册</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+<div id="GoodForm">
+    <div class="title">
+        <span class="titleRegister">商品信息</span>
+        <span class="titleLogin"><a href="login.jsp">退出</a></span>
+    </div>
+    <form id="registerForm">
+
+
+        <p><input id="idName" name="idName" type="text" placeholder="商品货号" />
+            <span class="auth_err" id="idNameError"></span>
+
+        </p>
+        <p><input id="goodBarcode" name="goodBarcode" type="text" placeholder="条形码" />
+            <span class="auth_err" id="goodBarcodeError"></span>
+        </p>
+        <p><input id="goodChineseName" name="goodChineseName" type="text" placeholder="商品中文名字" />
+            <span class="auth_err" id="goodChineseNameError"></span>
+        </p>
+        <p> <select id="location" name="Location">5
+            <option value="">产地</option>
+        </select>
+            <span class="auth_err" id="locationError"></span>
+        </p>
+        <p> <select id="danwei" name="danwei">5
+            <option value="">计量单位</option>
+        </select>
+            <span class="auth_err" id="danweiError"></span>
+        </p>
+        <p> <select id="yiji" name="yijiCode">5
+        <option value="">一级目录</option>
+    </select>
+        <span class="auth_err" id="yijiError"></span>
+    </p>
+        <p> <select id="erji" name="erjiCode">
+            <option value="">二级目录</option>
+        </select>
+            <span class="auth_err" id="erjiError"></span>
+
+        <p>
+            <input id="btLogin" type="button" value="商品信息保存 " />
+            <span class="auth_err" id="checkError"></span>
+        </p>
+    </form>
+</div>
+</body>
+
+</html>

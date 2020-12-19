@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="kengchengsheji_web_liyue:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/kengchengsheji_web_liyue_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="kengchengsheji_web_liyue/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="kengchengsheji_web_liyue" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
